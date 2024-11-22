@@ -1,0 +1,26 @@
+{
+  "name": "music-bot",
+  "version": "1.0.0",
+  "description": "Used for creating a Discord music bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Huang",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "@mapbox/node-pre-gyp": "^1.0.11",
+    "discord-player": "^6.6.10",
+    "discord.js": "^14.15.3",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.3",
+    "glob": "^11.0.0",
+    "node-pre-gyp": "^0.17.0",
+    "npmlog": "^7.0.1",
+    "osenv": "^0.1.5",
+    "rebuild": "^0.1.2",
+    "rimraf": "^6.0.1",
+    "ytdl-core": "^4.11.5"
+  }
+}
